@@ -1,0 +1,10 @@
+[package]
+name = "rustflags-not-passed"
+version = "0.1.0"
+edit = "2021"
+
+[build-dependencies]
+binary_deps = { path = "binary_deps", artifact = "bin" }
+
+[workspace]
+members = [ "binary_deps" ]
